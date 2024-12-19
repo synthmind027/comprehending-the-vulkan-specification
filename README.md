@@ -1,6 +1,8 @@
 # Comprehending the vulkan specification
 
 [Vulkan documentation](https://docs.vulkan.org/spec/latest/index.html)  
+
+## Contents of text
 [Introduction](#Introduction)  
 [Fundamentals](#fundamentals)  
 [Initialization](#initialization)  
