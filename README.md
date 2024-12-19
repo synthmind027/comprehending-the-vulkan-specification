@@ -64,6 +64,9 @@
 [Credits (Informative)](#credits)
 
 ## Introduction  
+[Link](https://docs.vulkan.org/spec/latest/chapters/introduction.html)  
+- The "Vulkan Specification" describes the Vulkan API.
+- Vulkan is C99 API
 ## Fundamentals  
 ## Initialization  
 ## Devices and Queues  
