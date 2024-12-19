@@ -59,7 +59,7 @@
 [API Boilerplate](#api-boilerplate)  
 [Invariance](#invariance)  
 [Lexicon](#lexicon)  
-[Credits (Informative)](#credits-(informative))
+[Credits (Informative)](#credits)
 
 ## Introduction  
 ## Fundamentals  
@@ -119,4 +119,4 @@
 ## API Boilerplate  
 ## Invariance  
 ## Lexicon  
-## Credits (Informative)  
+## Credits
