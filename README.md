@@ -1,6 +1,7 @@
 # Comprehending the vulkan specification
 
 [Vulkan documentation](https://docs.vulkan.org/spec/latest/index.html)  
+**Todo**: Comprehend [registry](https://registry.khronos.org/vulkan/)
 
 ## Contents of text
 [Introduction](#Introduction)  
@@ -87,6 +88,12 @@
     - VkDescriptorPool - VkDescriptorSet
     - VkDevice - _many object_
 ## Initialization  
+- vkGetInstanceProcAddr
+- vkGetDeviceProcAddr
+- vkEnumerateInstanceVersion
+- vkCreateInstance
+  - VkInstanceCreateInfo
+  - 
 ## Devices and Queues  
 ## Command Buffers  
 ## Synchronization and Cache Control  
