@@ -87,13 +87,20 @@
     - VkCommandPool - VkCommandBuffer
     - VkDescriptorPool - VkDescriptorSet
     - VkDevice - _many object_
+
+
+
 ## Initialization  
 - vkGetInstanceProcAddr
 - vkGetDeviceProcAddr
 - vkEnumerateInstanceVersion
 - vkCreateInstance
   - VkInstanceCreateInfo
-  - 
+- vkDestroyInstance
+- With callback
+
+
+
 ## Devices and Queues  
 ## Command Buffers  
 ## Synchronization and Cache Control  
