@@ -63,11 +63,29 @@
 [Lexicon](#lexicon)  
 [Credits (Informative)](#credits)
 
+
+
 ## Introduction  
 [Link](https://docs.vulkan.org/spec/latest/chapters/introduction.html)  
 - The "Vulkan Specification" describes the Vulkan API.
 - Vulkan is C99 API
+
+
+
 ## Fundamentals  
+[Link](https://docs.vulkan.org/spec/latest/chapters/fundamentals.html)  
+- All objects created or allocated from a VkDevice
+- Objects are created by vkCreate* / vkAllocate*
+- Structure of object is immutable  
+- Objects are destroyed by vkDestroy* / vkFree*
+- Object creation is low-frequency in runtime
+  - Allocating and freeing objects **can** occur at high frequency.
+  - Pool objects help improved performance of the allocations and frees.
+- Tracking lifetime is responsibility of application
+- Parent-child relations
+    - VkCommandPool - VkCommandBuffer
+    - VkDescriptorPool - VkDescriptorSet
+    - VkDevice - _many object_
 ## Initialization  
 ## Devices and Queues  
 ## Command Buffers  
