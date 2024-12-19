@@ -33,7 +33,7 @@
 [Dispatching Commands](#dispatching-commands)  
 [Device-Generated Commands](#device-generated-commands)  
 [Sparse Resources](#sparse-resources)  
-[Window System Integration (WSI)](#window-system-integration-(wsi))  
+[Window System Integration (WSI)](#window-system-integration)  
 [Deferred Host Operations](#deferred-host-operations)  
 [Private Data](#private-data)  
 [Acceleration Structures](#acceleration-structures)  
@@ -53,8 +53,8 @@
 [Vulkan Environment for SPIR-V](#vulkan-environment-for-spir-v)  
 [Memory Model](#memory-model)  
 [Compressed Image Formats](#compressed-image-formats)  
-[Core Revisions (Informative)](#core-revisions-(informative))  
-[Layers & Extensions (Informative)](#layers-&-extensions-(informative))  
+[Core Revisions (Informative)](#core-revisions)  
+[Layers & Extensions (Informative)](#layers-&-extensions)  
 [Vulkan Roadmap Milestones](#vulkan-roadmap-milestones)  
 [API Boilerplate](#api-boilerplate)  
 [Invariance](#invariance)  
@@ -93,7 +93,7 @@
 ## Dispatching Commands  
 ## Device-Generated Commands  
 ## Sparse Resources  
-## Window System Integration (WSI)  
+## Window System Integration   
 ## Deferred Host Operations  
 ## Private Data  
 ## Acceleration Structures  
@@ -113,8 +113,8 @@
 ## Vulkan Environment for SPIR-V  
 ## Memory Model  
 ## Compressed Image Formats  
-## Core Revisions (Informative)  
-## Layers & Extensions (Informative)  
+## Core Revisions 
+## Layers & Extensions 
 ## Vulkan Roadmap Milestones  
 ## API Boilerplate  
 ## Invariance  
