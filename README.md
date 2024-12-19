@@ -74,14 +74,14 @@
 
 ## Fundamentals  
 [Link](https://docs.vulkan.org/spec/latest/chapters/fundamentals.html)  
-- All objects created or allocated from a VkDevice
-- Objects are created by vkCreate* / vkAllocate*
+- All objects are created from VkDevice.
+- Object creation: vkCreate* / vkAllocate*
+- Object destruction: vkDestroy* / vkFree*
 - Structure of object is immutable  
-- Objects are destroyed by vkDestroy* / vkFree*
 - Object creation is low-frequency in runtime
-  - Allocating and freeing objects **can** occur at high frequency.
-  - Pool objects help improved performance of the allocations and frees.
-- Tracking lifetime is responsibility of application
+  - Allocate / free **can** occur high frequency.
+    - Pool objects help its performance.
+- Lifetime tracking responsibility: application
 - Parent-child relations
     - VkCommandPool - VkCommandBuffer
     - VkDescriptorPool - VkDescriptorSet
